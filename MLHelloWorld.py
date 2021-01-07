@@ -12,3 +12,4 @@ ys = np.array([-2.0, 1.0, 4.0, 7.0, 10.0, 13.0], dtype=float)
 model.fit(xs, ys, epochs=500)
 
 print(model.predict([10.0]))
+print(model.predict([9.0]))
