@@ -13,3 +13,4 @@ model.fit(xs, ys, epochs=500)
 
 print(model.predict([10.0]))
 print(model.predict([9.0]))
+print(model.predict([20.0]))
